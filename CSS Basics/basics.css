@@ -1,0 +1,10 @@
+/*Example Explained
+p is a selector in CSS (it points to the HTML element you want to style: <p>).
+color is a property, and red is the property value
+text-align is a property, and center is the property value*/
+
+
+p {
+  color: red;
+  text-align: center;
+} 

@@ -1,0 +1,6 @@
+/*A CSS pseudo-element is used to style specified parts of an element.
+The syntax of pseudo-elements:
+
+selector::pseudo-element {
+  property: value;
+}*/

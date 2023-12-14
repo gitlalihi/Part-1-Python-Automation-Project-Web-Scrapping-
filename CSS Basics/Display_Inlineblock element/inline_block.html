@@ -1,0 +1,52 @@
+Using the display property
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+</style>
+</head>
+<body>
+
+<h1>The display Property</h1>
+
+<h2>display: inline</h2>
+<div>Hello, this is a text <span class="a">hello</span> <span class="a">text</span> Another text</div>
+
+<h2>display: inline-block</h2>
+<div>Hello, this is a text <span class="b">hello</span> <span class="b">text</span> Another text</div>
+
+<h2>display: inline-block</h2>
+<div>Hello, this is a text <span class="c">hello</span> <span class="c">text</span> Another text</div>
+
+
+</body>
+</html>
+

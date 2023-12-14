@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.coloumn{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Styling the footer */
+.footer {
+  background-color: #f3f6;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+</style>
+</head>
+
+<div class="row">
+  <div class="column">
+    <h2>Column</h2>
+    <p>Some text....</p>
+  </div>
+  
+  <div class="column">
+    <h2>Column</h2>
+    <p>its interestng to learn CSS</p>
+  </div>
+  
+  <div class="column">
+    <h2>Column</h2>
+    <p>Hello world</p>
+  </div>
+</div>
+
+    <div class="footer">
+        <p>Terms of use</p>
+      </div>
+        
+</body>
+</html>
